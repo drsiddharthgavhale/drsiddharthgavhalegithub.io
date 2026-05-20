@@ -303,7 +303,69 @@ nav {
   font-size: 10px;
   top: 4px;
 }
+/* ============================================================
+   PROFESSIONAL MEMBERSHIP SECTION
+   ============================================================ */
+.membership-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 28px 28px 22px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  margin-bottom: 28px;
+}
 
+.membership-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #8B0000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0e0e0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.membership-title::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  background: #8B0000;
+  border-radius: 2px;
+}
+
+.membership-item {
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.membership-item:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.membership-detail {
+  font-size: 13px;
+  color: #555;
+  padding-left: 18px;
+  margin-bottom: 8px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.membership-detail::before {
+  content: '▪';
+  position: absolute;
+  left: 0;
+  color: #aaa;
+  font-size: 10px;
+  top: 4px;
+}
 /* ============================================================
    FOOTER
    ============================================================ */
@@ -349,7 +411,7 @@ nav {
     <li><a href="#" class="active">Home</a></li>
     <li><a href="research.html">Research</a></li>
     <li><a href="academic.html">Academic Program</a></li>
-    <li><a href="publiication.html">Publications</a></li>
+    <li><a href="publications.html">Publications</a></li>
     <li><a href="people.html">People</a></li>
   </ul>
 </nav>
@@ -374,7 +436,12 @@ nav {
       </div>
       <div class="profile-divider"></div>
       <div class="profile-title">Assistant Professor,</div>
-      <div class="profile-dept">School of Interdisciplinary Studies &amp; Research, D Y Patil International University</div>
+      <div class="profile-dept">Center for Interdisciplinary Studies &amp; Research,<p></p> D Y Patil International University , Pune, India</p> </div>
+       <a href="https://drive.google.com/file/d/1Z_LKbERiMlXRLUi6styZNgJmy0CFFNZs/view?usp=sharing" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   CV link
+</a>
 
       <div class="research-heading">Research Interest</div>
       <ul class="research-list">
@@ -497,6 +564,15 @@ nav {
       <div class="edu-detail">University of Pune, India</div>
     </div>
   </div>
+  <!-- PROFESSIONAL MEMBERSHIP -->
+<div class="membership-card">
+  <div class="membership-title">Professional Membership</div>
+
+  <div class="membership-item">
+    <div class="membership-detail">American Mathematical Society</div>
+    <div class="membership-detail">Indian Mathematical Society</div>
+  </div>
+</div>
 
 </div><!-- end page-content -->
 
